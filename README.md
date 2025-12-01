@@ -1,36 +1,44 @@
 #  Event Horizon – Event Management & Booking Web App
 
-Event Horizon is a modern Flask-based web application that allows users to browse events, view event details, and book tickets. Admins can manage events with a full dashboard including create, edit, and delete features.
+Event Horizon is a modern Flask web application that allows users to browse events, view event details, and book tickets.  
+Admins can create, edit, and delete events with a full admin dashboard.
 
 ---
 
-## Features
+##  Features
 
 ### 👤 User Features
-- Register/Login  
-- Browse upcoming events  
-- View event details  
-- Book events  
-- View personal bookings  
+- Register / Login / Logout
+- View all events
+- View event details
+- Book events
 
-###  Admin Features
-- Admin login  
-- Add new events  
-- Edit events  
-- Delete events  
-- View all user bookings  
+### 🛡️ Admin Features
+- Create events
+- Edit events
+- Delete events
+- View all users & bookings
 
----
-
-##  Tech Stack
-| Layer | Technology |
-|------|------------|
-| Backend | Python, Flask |
-| Frontend | HTML, CSS, Bootstrap |
-| Database | SQLite |
-| Authentication | Flask-Login |
-| Environment | Virtualenv |
+###  UI Features
+- Modern Bootstrap UI
+- Dark/Light mode theme
+- Responsive layout
 
 ---
 
-## 📁 Project Structure
+##  Technologies Used
+- Python
+- Flask
+- SQLite
+- HTML & CSS
+- Bootstrap 5
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/amruthaaa04/event-horizon-app.git
+cd event-horizon-app
+pip install -r requirements.txt
+python app.py
