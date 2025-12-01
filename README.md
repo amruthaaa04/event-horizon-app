@@ -42,3 +42,28 @@ git clone https://github.com/amruthaaa04/event-horizon-app.git
 cd event-horizon-app
 pip install -r requirements.txt
 python app.py
+
+
+## 📁 Project Structure
+
+event-horizon-app/
+│── app.py # Main Flask application
+│── app.db # SQLite database (auto-created)
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
+│
+├── templates/ # HTML templates
+│ │── base.html
+│ │── index.html
+│ │── login.html
+│ │── register.html
+│ │── dashboard.html
+│ │── admin_dashboard.html
+│ │── event_detail.html
+│ │── admin_create_event.html
+│ │── admin_edit_event.html
+│
+├── static/ # Static assets
+│ ├── css/
+│ ├── js/
+│ └── uploads/ # Event images
